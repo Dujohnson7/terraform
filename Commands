@@ -1,0 +1,30 @@
+Terraform (installation guide)
+
+-> https://developer.hashicorp.com/terraform/install
+AWS CLI (installation guide)
+-> https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+
+Configure your AWS credentials
+ 
+-> aws configure
+
+Initialize Terraform
+
+-> terraform init
+
+Preview the Changes
+
+-> terraform plan
+
+Apply the Configuration
+
+-> terraform apply 
+ 
+To delete all created AWS resources:
+ 
+-> terraform destroy
+
+
+list all EC2 instances:
+-> aws ec2 describe-instances
